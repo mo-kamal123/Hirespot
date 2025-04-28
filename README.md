@@ -18,12 +18,14 @@ React (Functional Components & Hooks)
 
 React Router (Routing between pages)
 
-Tailwind CSS (Styling) / or CSS Modules (if you used it)
+Tanstack Query (data handling)
+
+Tailwind CSS (Styling) 
 
 LocalStorage (for saving favorites)
 
 🧠 Lessons Learned
-How to fetch and handle API data in React.
+How to fetch and handle API data using react query.
 
 Working with React Router for client-side routing.
 
