@@ -1,12 +1,66 @@
-# React + Vite
+🧑‍💻 Remote Jobs Project
+This is a mini Remote Job Board built using React.
+It fetches and displays remote job listings from the Remotive API, allowing users to browse, search, and save their favorite jobs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Fetch and display a list of remote jobs.
 
-Currently, two official plugins are available:
+View detailed information about each job.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Search and filter jobs by keywords.
 
-## Expanding the ESLint configuration
+Add jobs to a list of favorites (saved in LocalStorage).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Responsive and clean UI.
+
+🛠️ Technologies Used
+React (Functional Components & Hooks)
+
+React Router (Routing between pages)
+
+Axios (Fetching API data)
+
+Tailwind CSS (Styling) / or CSS Modules (if you used it)
+
+LocalStorage (for saving favorites)
+📦 Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/your-username/remote-jobs-project.git
+Navigate into the project folder:
+
+bash
+Copy
+Edit
+cd remote-jobs-project
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Start the development server:
+
+bash
+Copy
+Edit
+npm run dev
+The app will run at http://localhost:5173 (or whatever Vite assigns).
+
+🧠 Lessons Learned
+How to fetch and handle API data in React.
+
+Working with React Router for client-side routing.
+
+Managing state effectively with hooks.
+
+Saving and retrieving data from LocalStorage.
+
+Building a clean and responsive UI with Tailwind CSS.
+
+📄 License
+This project is for educational purposes.
+
