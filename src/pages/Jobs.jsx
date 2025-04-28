@@ -37,7 +37,7 @@ const Jobs = () => {
 
   // paginate data
   const { page, pageJobs, setPage } = usePagination(jobs, filtering);
-  console.log(pageJobs);
+
   // search handleing functions
   const handleSearch = () => {
     setSearchTerm(searchInput);
