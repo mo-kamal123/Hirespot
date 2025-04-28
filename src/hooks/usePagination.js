@@ -6,7 +6,7 @@ export const usePagination = (jobs, {type, location}) => {
     const [page, setPage] = useState(1)
     const filteredjobs = filterJobs( jobs, type, location )
     const source = type || location ? filteredjobs : jobs
-    const pageJobs = source?.slice((page - 1) * 10, page * 10)
+    const pageJobs = source?.slice((page - 1) * 10, page * 10) || []
 
     return { page, pageJobs, setPage}
 }

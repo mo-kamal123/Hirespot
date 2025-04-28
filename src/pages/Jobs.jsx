@@ -37,7 +37,7 @@ const Jobs = () => {
 
   // paginate data
   const { page, pageJobs, setPage } = usePagination(jobs, filtering);
-
+  console.log(pageJobs);
   // search handleing functions
   const handleSearch = () => {
     setSearchTerm(searchInput);
@@ -104,9 +104,11 @@ const Jobs = () => {
 
           {jobs && pageJobs.map((job) => <JobCard key={job.id} job={job} />)}
 
-          {(!jobs || jobs.length === 0) && (
+          {(!pageJobs || pageJobs.length === 0) && (
             <div className="flex items-center justify-center">
-              <p  className="text-5xl font-bold text-center text-neutral-400">Jobs not Available Now </p>
+              <p className="text-5xl font-bold text-center text-neutral-400">
+                Jobs not Available Now{" "}
+              </p>
             </div>
           )}
 
@@ -114,11 +116,11 @@ const Jobs = () => {
         </div>
       </div>
       {/* Actions buttons  */}
-      {(!isError && jobs) && (
+      {(pageJobs && pageJobs.length > 0) && (
         <Actions
-        nextPage={handleNextPage}
-        prevPage={handlePrevPage}
-        page={page}
+          nextPage={handleNextPage}
+          prevPage={handlePrevPage}
+          page={page}
         />
       )}
     </div>
