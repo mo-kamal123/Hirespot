@@ -18,37 +18,9 @@ React (Functional Components & Hooks)
 
 React Router (Routing between pages)
 
-Axios (Fetching API data)
-
 Tailwind CSS (Styling) / or CSS Modules (if you used it)
 
 LocalStorage (for saving favorites)
-📦 Installation
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/remote-jobs-project.git
-Navigate into the project folder:
-
-bash
-Copy
-Edit
-cd remote-jobs-project
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Start the development server:
-
-bash
-Copy
-Edit
-npm run dev
-The app will run at http://localhost:5173 (or whatever Vite assigns).
 
 🧠 Lessons Learned
 How to fetch and handle API data in React.
